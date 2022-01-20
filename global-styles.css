@@ -4,11 +4,14 @@ h1{font-family:'Russo One',sans-serif;padding:0 0 12px 4px;text-align:center;col
 li{list-style:none}
 .sticky-top {position:-webkit-sticky; position:sticky; top:0; z-index:999999; border-bottom:3px solid #000}
 .sticky-bottom {position:-webkit-sticky; position:sticky; bottom:0; z-index:999999;}
-.mt-3{margin-top:3rem;}
-.mb-4{margin-bottom:4rem;}
+.mt-1{margin-top:1rem!important;}
+.mt-3{margin-top:3rem!important;}
 .mb-1{margin-bottom:1rem!important;}
-.mb-4{margin-bottom:4rem;}
-.ml-1p5{margin-left:1.5rem;}
+.mb-4{margin-bottom:4rem!important;}
+.ml-1{margin-left:1rem!important;}
+.mr-1{margin-right:1rem!important;}
+.mx-1{margin-left:1rem!important;margin-right:1rem!important;}
+.my-1{margin-top:1rem!important;margin-bottom:1rem!important;}
 .red{color:red;}
 .right{float:right;}
 .left{float:left;}
