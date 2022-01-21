@@ -6,3 +6,5 @@
 .node-bg{margin:0 1rem!important;background-image:url('../site-images/node-js.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
 .mash-color{color:#2DA2D2;}
 .mash-bg{margin:0 1rem!important;background-image:url('../site-images/mashup.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
+.viz-color{color:#f6894a;display:inline;vertical-align: text-bottom;}
+.viz-bg{margin:0 1rem!important;background-image:url('../site-images/d3.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
