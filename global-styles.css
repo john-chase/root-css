@@ -21,7 +21,7 @@ li{list-style:none}
 .visible{visibility: visible;}
 .defo{text-decoration:dodgerblue dotted underline;}
 .copyright {font-size:80%; color:white;padding-bottom:1em;}
-.bc-div{background-color:#000;display:block}
+.bc-div{background-color:#333;display:block}
 .breadcrumbs {margin: 0 0 .5rem .75rem;padding: .5rem 0;color:dodgerblue;}
 .breadcrumbs li{display:inline;}
 .breadcrumbs a{color:dodgerblue;text-decoration:none;}
@@ -29,5 +29,5 @@ li{list-style:none}
 #cir-footer-wrapper {text-align:center;margin-top:3rem}
 #cir-footer-wrapper a {color:#3d99fd;}
 #cir-footer-wrapper a:hover {color:white;}
-#cir-footer-menu {margin:0; padding:0; font-size:1em; text-align:center; background-color:black; padding-bottom:0px; position:fixed; bottom:0; width:100%; z-index:999999;}
+#cir-footer-menu {margin:0; padding:0; font-size:1em; text-align:center; background-color:#333; padding-bottom:0px; position:fixed; bottom:0; width:100%; z-index:999999;}
 #footer-menu li {display:inline; margin:0; padding:1rem 0; background-image:none;}
