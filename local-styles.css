@@ -1,10 +1,24 @@
-.vue-color{color:#4CBA87;}
-.vue-bg{margin:0 1rem!important;background-image:url('../site-images/vue-js.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
-.leaf-color{color:#4CBA87;}
-.leaf-bg{margin:0 1rem!important;background-image:url('../site-images/leaflet.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
-.node-color{color:#689F63;}
-.node-bg{margin:0 1rem!important;background-image:url('../site-images/node-js.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
-.mash-color{color:#2DA2D2;}
-.mash-bg{margin:0 1rem!important;background-image:url('../site-images/mashup.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
-.viz-color{color:#f6894a;display:inline;vertical-align: text-bottom;}
-.viz-bg{margin:0 1rem!important;background-image:url('../site-images/d3.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
+.vue-bg{background-image:none;}
+.leaf-bg{background-image:none;}
+.node-bg{background-image:none;}
+.mash-bg{background-image:none;}
+.viz-bg{background-image:none;}
+#logo{width:30px;height:30px;}
+.site-title{font-size: 1rem;padding-top:10px;} 
+@media only screen and (min-width: 768px) {
+    #logo{width:60px;height:60px;}
+    .site-title{font-size: 2.5rem;} 
+    .vue-color{color:#4CBA87;}
+    .vue-bg{margin:0 1rem!important;background-image:url('../site-images/vue-js.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
+    .leaf-color{color:#4CBA87;}
+    .leaf-bg{margin:0 1rem!important;background-image:url('../site-images/leaflet.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
+    .node-color{color:#689F63;}
+    .node-bg{margin:0 1rem!important;background-image:url('../site-images/node-js.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
+    .mash-color{color:#2DA2D2;}
+    .mash-bg{margin:0 1rem!important;background-image:url('../site-images/mashup.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
+    .viz-color{color:#f6894a;display:inline;vertical-align: text-bottom;}
+    .viz-bg{margin:0 1rem!important;background-image:url('../site-images/d3.png');background-position:top 20px right 20px; background-size:2%; background-repeat:repeat-y}
+}
+@media only screen and (max-height: 850px) {
+    .pad{height:5rem;}
+}

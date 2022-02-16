@@ -1,5 +1,5 @@
-html{height:100vh;}
-body{font-family:'Roboto',sans-serif;font-size:1em;background-color:#efefef;font-family:'Roboto',sans-serif;margin:0 0 8rem 0;position:absolute;top:0;bottom:0;right:0;left:0;min-height:100vh;width:100%}
+html{height:100vh;overflow:hidden;}
+body{font-family:'Roboto',sans-serif;font-size:1em;background-color:#efefef;font-family:'Roboto',sans-serif;margin:0 0 8rem 0;position:absolute;top:0;bottom:0;right:0;left:0;min-height:100vh;width:100%;overflow:auto;}
 header{display:table;width:100%;background-color:#fff;display:flex;align-items:center;justify-content:center;}
 h1{font-family:'Russo One',sans-serif;padding:0 0 12px 4px;text-align:center;color:dodgerblue;font-weight:bold;font-size:2.5em;margin:.5rem 0;text-shadow:2px 2px silver;}
 li{list-style:none}
@@ -30,6 +30,5 @@ li{list-style:none}
 #cir-footer-wrapper {text-align:center;margin-top:3rem}
 #cir-footer-wrapper a {color:#3d99fd;}
 #cir-footer-wrapper a:hover {color:white;}
-/* #cir-footer-menu {margin:0;padding:0;font-size:1em;text-align:center;background-color:#333;padding-bottom:0;position:fixed;bottom:0;width:100%;z-index:999999;} */
 #cir-footer-menu {margin:0;font-size:1em;text-align:center;background-color:#333;padding-bottom:0;position:fixed;bottom:0;width:100%;z-index:999999;}
 #footer-menu li {display:inline;margin:0;padding:1rem 0;}
